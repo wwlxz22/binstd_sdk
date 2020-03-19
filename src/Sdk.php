@@ -8,8 +8,8 @@ class Sdk
 {
     private $key;
     private $string;
-    private $sms;
-    private $express;
+    public $sms;
+    public $express;
 
     public function __construct($key, $secret)
     {
