@@ -1,0 +1,18 @@
+{
+  "name": "binstd/sdk",
+  "description": "SDK of BinSTD's API.",
+  "authors": [
+    {
+      "name": "xiaozhen",
+      "email": "xiaozhen0801@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Binstd\\Sdk\\": "./src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.5"
+  }
+}
